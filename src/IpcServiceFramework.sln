@@ -37,6 +37,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JKang.IpcServiceFramework.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JKang.IpcServiceFramework.NamedPipeTests", "JKang.IpcServiceFramework.NamedPipeTests\JKang.IpcServiceFramework.NamedPipeTests.csproj", "{62A037D0-4FC0-4EF8-A87F-ABC93209EB46}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IpcServer", "IpcServer\IpcServer.csproj", "{E4E572E6-9AF6-4299-9228-5D02CD523BEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpcClient", "IpcClient\IpcClient.csproj", "{ED237965-6356-4907-A93F-7A344D888B0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{62A037D0-4FC0-4EF8-A87F-ABC93209EB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A037D0-4FC0-4EF8-A87F-ABC93209EB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A037D0-4FC0-4EF8-A87F-ABC93209EB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E572E6-9AF6-4299-9228-5D02CD523BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E572E6-9AF6-4299-9228-5D02CD523BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E572E6-9AF6-4299-9228-5D02CD523BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E572E6-9AF6-4299-9228-5D02CD523BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED237965-6356-4907-A93F-7A344D888B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED237965-6356-4907-A93F-7A344D888B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED237965-6356-4907-A93F-7A344D888B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED237965-6356-4907-A93F-7A344D888B0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

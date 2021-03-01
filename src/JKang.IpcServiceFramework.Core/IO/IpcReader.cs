@@ -12,8 +12,7 @@ namespace JKang.IpcServiceFramework.IO
         private readonly IIpcMessageSerializer _serializer;
         private readonly bool _leaveOpen;
 
-        public IpcReader(Stream stream, IIpcMessageSerializer serializer)
-            : this(stream, serializer, leaveOpen: false)
+        public IpcReader(Stream stream, IIpcMessageSerializer serializer) : this(stream, serializer, leaveOpen: false)
         { }
 
         public IpcReader(Stream stream, IIpcMessageSerializer serializer, bool leaveOpen)
@@ -77,8 +76,6 @@ namespace JKang.IpcServiceFramework.IO
             }
         }
 
-        #region IDisposible
-
         bool _disposed = false;
 
         public void Dispose()
@@ -104,7 +101,5 @@ namespace JKang.IpcServiceFramework.IO
 
             _disposed = true;
         }
-
-        #endregion
     }
 }
